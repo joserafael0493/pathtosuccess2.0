@@ -1,0 +1,303 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+#home{
+	height: 100vh;
+	background-image: linear-gradient(rgba(4, 9, 15, 0.6), rgba(4, 9, 15, 0.75)), url(images/road-to-success.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#home nav{
+	padding: 25px 0px;
+	border-bottom: 1px solid lightgray;
+	background-color: #ffffff;
+} 
+#home nav .topnav{
+	margin: 0px 10%;
+}
+#home nav .topnav .nav-section{
+	padding: 0px 5%;
+}
+#home nav .topnav .nav-section a{
+	font-weight: 600;
+	margin-right: 3.5%;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+
+#home .banner{
+	margin: 0px 10%;
+}
+#home .banner .main-headings{
+	padding: 0px 5%;
+}
+#home .banner .main-headings .text-box{
+	margin-top: 20%;
+}
+#home .banner .main-headings .text-box h1{
+	font-size: 75px;
+	font-weight: 500;
+	line-height: 95px;
+	color: #ffffff;
+}
+#home .banner .main-headings .text-box p{
+	color: #ffffff;
+	font-size: 22px;
+	margin-top: 2%;
+	line-height: 32px;
+}
+
+
+
+
+
+.container-1{
+	margin: 2.5% 10%;
+}
+.container-1 .columns{
+	padding: 0px 5%;
+	display: flex;
+}
+.container-1 .columns .main{
+	width: 70%;
+}
+.container-1 .columns .main img{
+	width: 100%;
+	height: 480px;
+	border-radius: 2.5%;
+}
+.container-1 .columns .main h2{
+	font-size: 27px;
+	margin: 20px 0px;
+	line-height: 45px;
+}
+.container-1 .columns .main p{
+	font-size: 17px;
+	line-height: 28px;
+}
+.container-1 .columns .main a{
+	padding: 12px 15px;
+	border: 1px solid lightgray;
+	text-decoration: none;
+}
+
+
+.container-1 .columns .aside{
+	width: 30%;
+	margin-left: 5%;
+}
+.container-1 .columns .aside img{
+	width: 100%;
+	height: 270px;
+	border-radius: 2.5%;
+}
+.container-1 .columns .aside h2{
+	font-size: 18px;
+	margin-top: 17px;
+}
+.container-1 .columns .aside p{
+	font-size: 17px;
+	line-height: 28px;
+	margin: 15px 0px;
+}
+
+
+
+
+
+footer{
+	padding: 25px 0px;
+	border-top: 1px solid lightgray;
+}
+footer .copyrights{
+	margin: 0px 10%;
+}
+footer .copyrights .text-box{
+	padding: 0px 5%;
+}
+footer .copyrights .text-box p{
+	font-size: 13px;
+}
+
+
+
+
+
+
+
+/* For mobile device with a screen of 360px and 430px */
+@media screen and (min-width: 360px) and (max-width: 430px){
+	#home{
+		background-position: center;
+	}
+	#home nav{
+		padding: 20px 0px;
+	} 
+	#home nav .topnav{
+		margin: 0px 5%;
+	}
+	#home nav .topnav .nav-section{
+		padding: 0px 0%;
+	}
+	#home nav .topnav .nav-section a{
+		margin-right: 7%;
+		font-size: 2vh;
+	}
+
+
+
+	#home .banner{
+		margin: 0px 5%;
+	}
+	#home .banner .main-headings{
+		padding: 0px 0%;
+	}
+	#home .banner .main-headings .text-box{
+		margin-top: 30%;
+		text-align: center;
+	}
+	#home .banner .main-headings .text-box h1{
+		font-size: 5.75vh;
+		line-height: 50px;
+	}
+	#home .banner .main-headings .text-box p{
+		font-size: 2.5vh;
+		margin-top: 4%;
+	}
+	#home .banner .main-headings .text-box p br{
+		display: none;
+	}
+	.container-1 .columns .main a{
+		padding: 12px 15px;
+		text-decoration: none;
+		font-size: 1.9vh;
+	}
+
+
+
+
+
+
+	.container-1{
+		margin: 10% 5%;
+	}
+	.container-1 .columns{
+		padding: 0px 0%;
+		flex-direction: column;
+	}
+	.container-1 .columns .main{
+		width: 100%;
+	}
+	.container-1 .columns .main img{
+		height: 250px;
+	}
+	.container-1 .columns .main h2{
+		font-size: 23px;
+		margin: 10px 0px;
+		line-height: 35px;
+	}
+	.container-1 .columns .main p{
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+
+	.container-1 .columns .aside{
+		width: 100%;
+		margin-left: 0%;
+		padding: 10% 0%;
+	}
+	.container-1 .columns .aside img{
+		width: 50%;
+		height: 150px;
+		border-radius: 50%;
+		display: block;
+		margin: 0px auto;
+	}
+	.container-1 .columns .aside h2{
+		font-size: 16px;
+		text-align: center;
+	}
+	.container-1 .columns .aside p{
+		font-size: 15px;
+		line-height: 25px;
+		text-align: center;
+	}
+
+	footer{
+		padding: 25px 0px;
+	}
+	footer .copyrights{
+		margin: 0px 5%;
+	}
+	footer .copyrights .text-box{
+		padding: 0px 0%;
+	}
+	footer .copyrights .text-box p{
+		font-size: 1.5vh;
+	}
+}
+
+
+/* For mobile device with a screen of 375px */
+@media screen and (min-width: 375px) and (max-width: 430px){
+	#home nav .topnav .nav-section a{
+		font-size: 1.75;
+		margin-right: 8%;
+	}
+
+
+	#home .banner .main-headings .text-box h1{
+		font-size: 5.90vh;
+		line-height: 60px;
+	}
+}
+
+
+/* For mobile device with a screen of 390px */
+@media screen and (min-width: 390px) and (max-width: 430px){
+	#home nav .topnav .nav-section a{
+		font-size: 1.5vh;
+		margin-right: 8%;
+	}
+
+
+	#home .banner .main-headings .text-box h1{
+		font-size: 5.90vh;
+		line-height: 65px;
+	}
+}
+
+
+
+/* For mobile device with a screen of 400px */
+@media screen and (min-width: 400px) and (max-width: 430px){
+	#home nav .topnav .nav-section a{
+		margin-right: 8%;
+		font-size: 1.7vh;
+	}
+
+	#home .banner .main-headings .text-box h1{
+		font-size: 5.90vh;
+		line-height: 65px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
