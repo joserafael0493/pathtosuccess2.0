@@ -10,7 +10,7 @@
 
 #home{
 	height: 100vh;
-	background-image: linear-gradient(rgba(4, 9, 15, 0.6), rgba(4, 9, 15, 0.75)), url(images/road-to-success.jpg);
+	background-image: linear-gradient(rgba(4, 9, 15, 0.6), rgba(4, 9, 15, 0.75)), url(road-to-success.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
