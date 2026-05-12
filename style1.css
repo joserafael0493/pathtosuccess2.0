@@ -43,16 +43,16 @@
 	margin-top: 20%;
 }
 #home .banner .main-headings .text-box h1{
-	font-size: 75px;
+	font-size: 92.5px;
 	font-weight: 500;
-	line-height: 95px;
+	line-height: 120px;
 	color: #ffffff;
 }
 #home .banner .main-headings .text-box p{
 	color: #ffffff;
 	font-size: 22px;
 	margin-top: 2%;
-	line-height: 32px;
+	line-height: 38px;
 }
 
 
@@ -75,7 +75,7 @@
 	border-radius: 2.5%;
 }
 .container-1 .columns .main h2{
-	font-size: 27px;
+	font-size: 20px;
 	margin: 20px 0px;
 	line-height: 45px;
 }
@@ -148,7 +148,7 @@ footer .copyrights .text-box p{
 		padding: 0px 0%;
 	}
 	#home nav .topnav .nav-section a{
-		margin-right: 7%;
+		margin-right: 8%;
 		font-size: 2vh;
 	}
 
@@ -161,12 +161,15 @@ footer .copyrights .text-box p{
 		padding: 0px 0%;
 	}
 	#home .banner .main-headings .text-box{
-		margin-top: 30%;
+		margin-top: 50%;
 		text-align: center;
 	}
 	#home .banner .main-headings .text-box h1{
-		font-size: 5.75vh;
-		line-height: 50px;
+		font-size: 6.5vh;
+		line-height: 70px;
+	}
+	#home .banner .main-headings .text-box h1 br{
+		display: none;
 	}
 	#home .banner .main-headings .text-box p{
 		font-size: 2.5vh;
@@ -255,8 +258,11 @@ footer .copyrights .text-box p{
 	}
 
 
+	#home .banner .main-headings .text-box{
+		margin-top: 50%;
+	}
 	#home .banner .main-headings .text-box h1{
-		font-size: 5.90vh;
+		font-size: 6.25vh;
 		line-height: 60px;
 	}
 }
@@ -281,13 +287,13 @@ footer .copyrights .text-box p{
 /* For mobile device with a screen of 400px */
 @media screen and (min-width: 400px) and (max-width: 430px){
 	#home nav .topnav .nav-section a{
-		margin-right: 8%;
+		margin-right: 9%;
 		font-size: 1.7vh;
 	}
 
 	#home .banner .main-headings .text-box h1{
 		font-size: 5.90vh;
-		line-height: 65px;
+		line-height: 75px;
 	}
 }
 
