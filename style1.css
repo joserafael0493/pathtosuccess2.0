@@ -161,7 +161,7 @@ footer .copyrights .text-box p{
 		padding: 0px 0%;
 	}
 	#home .banner .main-headings .text-box{
-		margin-top: 50%;
+		margin-top: 30%;
 		text-align: center;
 	}
 	#home .banner .main-headings .text-box h1{
@@ -219,8 +219,8 @@ footer .copyrights .text-box p{
 		padding: 10% 0%;
 	}
 	.container-1 .columns .aside img{
-		width: 50%;
-		height: 150px;
+		width: 37.5%;
+		height: 120px;
 		border-radius: 50%;
 		display: block;
 		margin: 0px auto;
@@ -259,7 +259,7 @@ footer .copyrights .text-box p{
 
 
 	#home .banner .main-headings .text-box{
-		margin-top: 50%;
+		margin-top: 40%;
 	}
 	#home .banner .main-headings .text-box h1{
 		font-size: 6.25vh;
