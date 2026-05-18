@@ -75,7 +75,7 @@
 	border-radius: 2.5%;
 }
 .container-1 .columns .main h2{
-	font-size: 20px;
+	font-size: 28px;
 	margin: 20px 0px;
 	line-height: 45px;
 }
@@ -200,7 +200,7 @@ footer .copyrights .text-box p{
 		width: 100%;
 	}
 	.container-1 .columns .main img{
-		height: 250px;
+		height: 200px;
 	}
 	.container-1 .columns .main h2{
 		font-size: 23px;
